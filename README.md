@@ -1,45 +1,25 @@
 # CS 839 SmartNIC Systems
 
 ## What is this repository about?
-This assignment is to improve the execution time performance of parallel matrix multiplication (C=A*B)
-using threadpool implementations.
-
-## Implementations
-There are six solutions implemented. They are
-- Sequential
-- Parallel with false sharing
-- Parallel without false sharing
-- Parallel with block matrix size
-- Parallel with decentralized queues
-- Parallel with decentralized queues and block matrix size
+The is the repository of the final project of SmarNIC Systems.
+It is to study the runtime performance of DOCA Graph programming model.
 
 
 ## Repository structure
-- src : source files
-- CMakeLists.txt : cmake file
-- 3rd-party : 3rd-party libraries
-- cmake : cmake file for Google benchmark 
-- PA1-report.pdf : report
+After unzip the final_project.zip, there are five files
+- graph_main.c: main function in the DOCA Graph implementation
+- graph_sample.c: function definitions in the DOCA Graph implementation
+- pthread_sample.c: a Pthread implementation
+- sequential_sample.c: a sequential implementation
+- run.sh: a script to compile and run the experiment
 
-## Build
-To build the executable, please follow the instructions below. The default compiler is g++.
+## Build and Run
+To build and run the three implementations,
+***You need to login in the DPU first and unzip the file in /opt/mellanox/doca/samples/doca_common***
+Then simply type the command:
 ```
-mkdir build
-cd build
-cmake ../
-make
-cmake ../
-make
-```
-***You need to cmake ../ and make twice to find the installed google benchmark libraries.***
-
-## Run
-To run the executable, please follow the instructions below.
-
-```
-cd build
-./main
+./run.sh
 ```
 
 ## Experiment results
-The report is available [[here](./PA1-report.pdf)]
+The report is available [[here](./SmartNIC___Final_Project.pdf)]
