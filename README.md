@@ -18,7 +18,7 @@ There are several files in the repository. They are:
 
 ## Build and Run
 To build and run the three implementations,
-***You need to login in the DPU first and unzip the file in /opt/mellanox/doca/samples/doca_common. You might be sudo for the operation.***
+***You need to login in the DPU first and unzip the file in /opt/mellanox/doca/samples/doca_common. You might need sudo for the operation.***
 Then simply type the command:
 ```
 ./run.sh
