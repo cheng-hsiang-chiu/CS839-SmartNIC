@@ -26,4 +26,4 @@ Then simply type the command:
 
 ## Experiment results
 The report is available [[here](./SmartNIC___Final_Project.pdf)]
-and the presentation slide is available [[here]](./smartnic.pdf)
+and the presentation slide is available [[here](./smartnic.pdf)]
