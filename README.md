@@ -13,8 +13,8 @@ There are several files in the repository. They are:
   - graph_sample.c: function definitions in the DOCA Graph implementation
   - pthread_sample.c: a Pthread implementation
   - sequential_sample.c: a sequential implementation
-- SmartNIC___Final_Project.pd : the report
-- smartnic.pdf : the presentation slide
+- report.pdf : the report
+- presentation.pdf : the presentation slide
 
 ## Build and Run
 To build and run the three implementations,
@@ -25,5 +25,5 @@ Then simply type the command:
 ```
 
 ## Experiment results
-The report is available [[here](./SmartNIC___Final_Project.pdf)]
-and the presentation slide is available [[here](./smartnic.pdf)]
+The report is available [[here](./report.pdf)]
+and the presentation slide is available [[here](./presentation.pdf)]
